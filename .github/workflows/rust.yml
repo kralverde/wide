@@ -107,13 +107,13 @@ jobs:
               target: wasm32-wasip1,
               toolchain: beta,
               os: ubuntu-latest,
-              wasmtime: v5.0.0,
+              wasmtime: v18.0.0,
             }
           - {
               target: wasm32-wasip1,
               toolchain: nightly,
               os: ubuntu-latest,
-              wasmtime: v5.0.0,
+              wasmtime: v18.0.0,
             }
     steps:
       - uses: actions/checkout@v4
