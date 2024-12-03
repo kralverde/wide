@@ -104,13 +104,13 @@ jobs:
               wasmtime: v5.0.0,
             }
           - {
-              target: wasm32-wasip1,
+              target: wasm32-wasip2,
               toolchain: beta,
               os: ubuntu-latest,
               wasmtime: v18.0.0,
             }
           - {
-              target: wasm32-wasip1,
+              target: wasm32-wasip2,
               toolchain: nightly,
               os: ubuntu-latest,
               wasmtime: v18.0.0,
